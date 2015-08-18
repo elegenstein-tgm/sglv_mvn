@@ -5,6 +5,10 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 /**
+ * A class to create a connection to the Database
+ * And to handle queries and inserts
+ * @author Fusions
+ * @version 1.0-alpha
  * Created by fusions on 18.08.15.
  */
 public class Connector {
@@ -13,7 +17,7 @@ public class Connector {
         try {
             con = DriverManager.getConnection(url, uname, upwd);
         }catch (SQLException e){
-
+            e.printStackTrace();
         }
     }
 
@@ -67,5 +71,36 @@ public class Connector {
         return null;
     }
 
+    public void insert(String table, String[] vals) {
+        String sql = "Insert into " + table + " VALUES (";
+        for (int i = 0; i < vals.length; i++) {
+            if (i != 0)
+                sql += ",";
+            if (Numutils.isNum(vals[i])) {
+                sql += vals[i];
+            } else {
+                sql += "'" + vals[i] + "'";
+            }
+        }
+        sql += ")";
 
+        try {
+            con.createStatement().execute(sql);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+
+    public static class Numutils {
+        public static boolean isNum(String number) {
+            try {
+                Double.parseDouble(number);
+            } catch (NumberFormatException e) {
+                return false;
+            }
+            return true;
+        }
+    }
 }
