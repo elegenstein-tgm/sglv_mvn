@@ -56,7 +56,11 @@ public class Connector {
                 }
                 data.add(tmp);
             }
-
+            String[][] ret = new String[data.size()][];
+            for (int i = 0; i < ret.length; i++) {
+                ret[i] = data.get(i);
+            }
+            return ret;
         } catch (SQLException e) {
             e.printStackTrace();
         }
