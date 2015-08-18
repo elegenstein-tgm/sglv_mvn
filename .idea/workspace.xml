@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="336369cf-f393-4ef0-a505-de2acf711e8e" name="Default" comment="init&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Connector.java" afterPath="$PROJECT_DIR$/src/main/java/Connector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="4200ec52-19f9-470a-9f11-7f7750e69ef8" name="Rejected commit: Default" comment="init&#10;" />
@@ -32,14 +31,15 @@
       <file leaf-file-name="Connector.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Connector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3562802">
-              <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.47558045">
+              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#448#449#0" expanded="true" />
                 <element signature="e#525#526#0" expanded="true" />
+                <element signature="method#query#0;class#Connector#0" expanded="false" />
                 <element signature="e#1341#1351#0" expanded="true" />
-                <marker date="1439909996939" expanded="true" signature="1163:1197" placeholder="Select missi..missingValue..." />
+                <marker date="1439910620837" expanded="true" signature="1163:1197" placeholder="Select missi..missingValue..." />
               </folding>
             </state>
           </provider>
@@ -57,6 +57,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="fusions &lt;elegenstein@student.tgm.ac.at&gt;" />
         <option value="fusions" />
       </list>
     </option>
@@ -491,16 +492,23 @@
       <created>1439898812161</created>
       <option name="number" value="Default" />
       <updated>1439898812161</updated>
-      <workItem from="1439898817879" duration="5786000" />
+      <workItem from="1439898817879" duration="6252000" />
     </task>
+    <task id="LOCAL-00001" summary="init&#10;">
+      <created>1439910185755</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1439910185755</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5786000" />
+    <option name="totallyTimeSpent" value="6252000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="2560" height="1390" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -512,7 +520,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299373" sideWeight="0.5015886" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3299373" sideWeight="0.49841145" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299373" sideWeight="0.49841145" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299373" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -576,14 +584,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Connector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3562802">
-          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.47558045">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#448#449#0" expanded="true" />
             <element signature="e#525#526#0" expanded="true" />
+            <element signature="method#query#0;class#Connector#0" expanded="false" />
             <element signature="e#1341#1351#0" expanded="true" />
-            <marker date="1439909996939" expanded="true" signature="1163:1197" placeholder="Select missi..missingValue..." />
+            <marker date="1439910620837" expanded="true" signature="1163:1197" placeholder="Select missi..missingValue..." />
           </folding>
         </state>
       </provider>
