@@ -2,6 +2,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 /**
  * Created by fusions on 18.08.15.
@@ -47,6 +48,14 @@ public class Connector {
 
         try{
             ResultSet rs = con.createStatement().executeQuery(sql);
+            ArrayList<String[]> data = new ArrayList<String[]>();
+            while (rs.next()) {
+                String[] tmp = new String[rs.getMetaData().getColumnCount()];
+                for (int i = 0; i < tmp.length; i++) {
+                    tmp[i] = rs.getString(i + 1);
+                }
+                data.add(tmp);
+            }
 
         } catch (SQLException e) {
             e.printStackTrace();
